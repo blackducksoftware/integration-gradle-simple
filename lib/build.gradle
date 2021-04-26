@@ -1,0 +1,11 @@
+apply plugin: 'java'
+
+version = '0.0.1-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.apache.hadoop:hadoop-yarn-api:3.2.0'
+}
